@@ -1,0 +1,60 @@
+.searchResults__item {
+  outline: 1px solid #ccc;
+  display: grid;
+  grid-template-rows: 6rem 1fr auto;
+  position: relative;
+}
+
+.searchResults__item--title{
+  /* autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 40px;
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+}
+
+.searchResults__img--wrapper {
+  padding: 1rem 0;
+  margin: 0;
+  text-align: center;
+  background: #fafafa;
+}
+
+.searchResults__img--caption {
+  text-align: left;
+  background: #fff;
+  padding: 2rem 0;
+  text-align: center;
+}
+
+.searchResults__item--link {
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #0a608a;
+  border: 1px solid #0a608a;
+  color: #fff;
+  margin: 0;
+  transition: background-color .25s ease-in-out,box-shadow .25s ease-in-out,opacity .25s ease-in-out,border-color .25s ease-in-out,color .25s ease-in-out;
+}
+
+.searchResults__item--link:hover {
+  background-color: #fff;
+  border-color: #fff;
+  box-shadow: 2px 2px 4px rgba(0,0,0,.2);
+  color: #0a608a;
+  outline: 0;
+}
+
+.searchResults__item--badge{
+  position: absolute;
+  top: -1rem;
+  right: -1rem;
+}

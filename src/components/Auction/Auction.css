@@ -1,0 +1,27 @@
+.auction__wrapper{
+  text-align: center;
+}
+.auction__item--title{
+  max-width: 800px;
+  margin: 4rem auto;
+}
+.auction__img--wrapper{
+  background: #fafafa;
+  margin: 0;
+  padding: 2rem;
+}
+.auction__img--caption{
+  padding: 2rem;
+  font-size: 1.5rem;
+}
+.auction__item--link{
+  display: block;
+  text-align: center;
+}
+.auction__item--end-time{
+  height: 3rem;
+  padding: 4rem 0;
+  text-align: center;
+  font-size: 1.5rem;
+  background: #fafafa;
+}

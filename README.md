@@ -1,10 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Run this project locally
+1. clone this repo first using: `git clone https://github.com/Elaniobro/react-discovery.git`
+2. install all the npm modules with either `yarn install` or `npm install`
+3. start the server and local instance up with either `yarn start` or `npm run start`
+4. naigate to [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+---
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `npm start` || `yarn start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -12,12 +17,13 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
+### `npm test` || `yarn test`
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+**Note: Unit tests were not created in interest of 3-4hr time limit**
+### `npm run build` || `yarn run build`
 
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
@@ -27,7 +33,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+### `npm run eject` || `yarn run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
@@ -43,26 +49,22 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Data
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+this site is using a proxy to bypass cors issues. See package.json and the key for `proxy`.
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/elaniobro/react-discovery/issues)
 
-### Making a Progressive Web App
+## Author
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+**Elan Trybuch**
 
-### Advanced Configuration
+* [github/](https://github.com/elaniobro)
+* [twitter/](http://twitter.com/elaniobro)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## License
 
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Copyright © 2018 [Elan Trybuch](https://github.com/elaniobro)
+Licensed under the MIT license.
